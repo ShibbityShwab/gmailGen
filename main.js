@@ -75,6 +75,7 @@ async function createGmailAccount(identity, password) {
 
     // Fill out phone number
     await page.type("#code", "388484");
+    
   } finally {
     // Close the browser
     await browser.close();
